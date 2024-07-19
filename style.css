@@ -1,0 +1,61 @@
+body {
+  background-color: #2d3242;
+  color: white;
+  font-family: Helvetica;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 160px;
+  height: 160px;
+}
+
+.choices {
+  background-color: aquamarine;
+  height: 200px;
+  width: 200px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.choices:hover {
+  filter: brightness(50%);
+}
+
+.outputSelection {
+  display: flex;
+  justify-content: center;
+}
+
+.playerImage {
+  width: 400px;
+  height: 400px;
+  margin: 20px;
+}
+
+.computerImage {
+  width: 400px;
+  height: 400px;
+  margin: 20px;
+}
+
+a {
+  color: orange;
+}
+
+a:hover {
+  color: red;
+}
+
+.links {
+  display: flex;
+  font-size: 30px;
+  justify-content: space-around;
+}
+.text {
+  display: flex;
+  justify-content: space-around;
+  font-size: 100px;
+}
